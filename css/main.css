@@ -2,12 +2,11 @@
     background-image: url(../img/jogodavelha1.jpg);
     background: no-repeat url(../img/jogodavelha1.jpg);
 }
-.firstpage{
-    background-image: url(../img/background2.jpg);
+.firstpage {
+    background-image: url(../img/background3.png);
     background-size: 100%;
     text-align: center;
     color: white;
-    
 }
 .firstpage p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -27,23 +26,23 @@
     padding: 2%;
 
 
-}    
+}
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 200%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .JOGO{
     margin-top: 5%;
     text-align:center;
-    background: no-repeat url(/img/jogodavelha.jpg);
+    background: no-repeat url(../img/jogodavelha.jpg);
     Background-position: center;
 }
-
-.JOGO input{
-    font-size: 100%;
-}
+.JOGO h2, input{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
 .JOGO button{
     min-width: 20px;
