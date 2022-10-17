@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width  initial-scale=1.0" />
+    <link rel="shortcut icon" href="../img/shorticon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="shortcut icon" />
+
+</head>
+<body class="thirdpage">
+    <script type="text/javascript" src="../js/jogodavelha.js"></script>
+    <div class="titulo">
+        <h1>Bem Vindo ao Jogo da velha!</h1>
+    </div>
+    <div class="JOGO">
+        <h2>Digite o nome dos jogadores</h2>
+        <input type="text" id="jogador1" value="Nome jogador 1"><button style="font-size: 100%;"id="J1O" onclick="btdesab1()">O</button><button style="margin-right: 1%; font-size: 100%;" id="J1X" onclick="btdesab3()">X</button>
+        <input type="text" id="jogador2" value="Nome jogador 2"><button style="font-size: 100%;"id="J2O" onclick="btdesab2()">O</button><button style="font-size: 100%;" id="J2X" onclick="btdesab4()">X</button><br><br>
+        <p style="padding:0%; margin-top:0%; color:white; background-color: black; background-size: 10px;" id="saida"></p>
+        <button class="botaojogo" onclick="guardarvalor1(),jogodavelha()" id="A1" >1</button>
+        <button class="botaojogo" onclick="guardarvalor2(),jogodavelha()" id="A2" >2</button>
+        <button class="botaojogo" onclick="guardarvalor3(),jogodavelha()" id="A3" >3</button><br><br>
+        <button class="botaojogo" onclick="guardarvalor4(),jogodavelha()" id="B1" >4</button>
+        <button class="botaojogo" onclick="guardarvalor5(),jogodavelha()" id="B2" >5</button>
+        <button class="botaojogo" onclick="guardarvalor6(),jogodavelha()" id="B3" >6</button><br><br>
+        <button class="botaojogo" onclick="guardarvalor7(),jogodavelha()" id="C1" >7</button>
+        <button class="botaojogo" onclick="guardarvalor8(),jogodavelha()" id="C2" >8</button>
+        <button class="botaojogo" onclick="guardarvalor9(),jogodavelha()" id="C3" >9</button><br><br>
+</div>
+    
+
+   
+</body>
+
+</html>

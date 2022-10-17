@@ -1,0 +1,56 @@
+.thirdpage{
+    background-image: url(../img/jogodavelha1.jpg);
+    background: no-repeat url(../img/jogodavelha1.jpg);
+}
+.firstpage{
+    background-image: url(../img/background2.jpg);
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    
+}
+.firstpage p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;    
+}
+.titulo i{
+    font-size: 300%;
+}
+.entrada{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/entrada.JPG);
+    background-size: 50%;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 2%;
+
+
+}    
+
+.titulo{
+    text-align: center;
+    font-size: 200%;
+}
+
+.JOGO{
+    margin-top: 5%;
+    text-align:center;
+    background: no-repeat url(/img/jogodavelha.jpg);
+    Background-position: center;
+}
+
+.JOGO input{
+    font-size: 100%;
+}
+
+.JOGO button{
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.botaojogo{
+    padding: 1.0%;
+    font-size: 300%;
+}
